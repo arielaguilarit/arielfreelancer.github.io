@@ -127,16 +127,16 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="resume.html">
+                                <!--<svg class="svg-inline--fa fa-file-alt fa-w-12 fa-fw mr-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"></path></svg><!-- <i class="fas fa-file-alt fa-fw mr-2"></i> -->
                                 Curriculum
                             </a>
                         </li>
-                        
                     </ul>
 
                     <div class="my-2">
                         <a class="btn btn-primary" href="contact.html" target="_blank">
                             <!--<svg class="svg-inline--fa fa-paper-plane fa-w-16 mr-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="paper-plane" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"></path></svg><!-- <i class="fas fa-paper-plane mr-2"></i> -->
-                            Conmigo!
+                            Contactame!
                         </a>
                     </div>
 
@@ -160,46 +160,128 @@
         <!--</div>-->
     </header>
     <div class="main-wrapper">
-        <!-- Content here -->
-        <section class="about-me-section p-3 p-lg-5 theme-bg-light">
-            <div class="container">
-                <div class="profile-teaser media flex-column flex-lg-row">
+		<section class="cta-section theme-bg-light py-5">
+			<div class="container text-center single-col-max-width">
+				<h2 class="heading">Services &amp; Pricing</h2>
+				<div class="intro">
+					<p>I have 10+ years of development experience building software for the web and mobile devices. You can take a look at my <a href="portfolio.html" target="_blank">project portfolio</a> and <a href="resume.html" target="_blank">online resume</a> to find out more about my skills and experiences.</p>
+					<p class="mb-0">I'm currently taking on freelance software development work. You're welcome to contact me for a custom quote for your project. I also offer development service packages with fixed pricing. </p>
+				</div>
+				
+			</div><!--//container-->
+		</section>
+		
+		<section class="pricing-section py-5">
+			<div class="container single-col-max-width">
+				<h3 class="text-center mb-4">Service Packages</h3>
+				<div id="pricing-tabs" class="pricing-tabs d-block d-md-none mb-3">
+	                <a href="#" class="pricing-tab active mb-2" data-target="pricing-1-data">Basic</a>	           
+	                <a href="#" class="pricing-tab mb-2" data-target="pricing-2-data">Standard</a>
+	                <a href="#" class="pricing-tab" data-target="pricing-3-data">Premium</a>
+				</div><!--//pricing-mobile-tabs-->
+			
+				<table id="pricing-table" class="pricing-table table-bordered">
+					<thead>
+						<tr class="border-0">
+							<th scope="col" class="pricing-0-data theme-bg-light"></th>
+							<th scope="col" class="pricing-package-title pricing-1-data">Basic</th>
+							<th scope="col" class="pricing-package-title pricing-2-data mobile-is-hidden">Standard</th>
+							<th scope="col" class="pricing-package-title pricing-3-data mobile-is-hidden">Premium</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="pricing-price-row">
+							<th scope="row" class="pricing-0-data">Package Price</th>
+							<td class="pricing-1-data"><span class="price-number">$900</span></td>
+							<td class="pricing-2-data mobile-is-hidden"><span class="price-number">$2500</span></td>
+							<td class="pricing-3-data mobile-is-hidden"><span class="price-number">$5000+</span></td>
+						</tr>
+						
+						<tr class="pricing-desc-row">
+							<th scope="row" class="pricing-0-data">Details</th>
+							<td class="pricing-1-data"><span class="pricing-package-desc">A small app lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</span></td>
+							<td class="pricing-2-data mobile-is-hidden"><span class="pricing-package-desc">An medium app lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</span></td>
+							<td class="pricing-3-data mobile-is-hidden"><span class="pricing-package-desc">A complex app lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</span></td>
+						</tr>
+						
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Feature Lorem<br><small class="feature-desc font-weight-normal text-muted">Optional feature description goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</small></th>
+							<td class="pricing-1-data"><i class="fas fa-check text-primary"></i></td>
+							<td class="pricing-2-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+							<td class="pricing-3-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+						</tr>
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Feature Ipsum<br><small class="feature-desc font-weight-normal text-muted">Optional feature description goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</small></th>
+							<td class="pricing-1-data"><i class="fas fa-check text-primary"></i></td>
+							<td class="pricing-2-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+							<td class="pricing-3-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+						</tr>
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Feature Commodo</th>
+							<td class="pricing-1-data"><i class="fas fa-check text-primary"></i></td>
+							<td class="pricing-2-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+							<td class="pricing-3-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+						</tr>
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Feature Consectetuer</th>
+							<td class="pricing-1-data"><span class="text-muted">–</span></td>
+							<td class="pricing-2-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+							<td class="pricing-3-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+						</tr>
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Feature Aenean</th>
+							<td class="pricing-1-data"><span class="text-muted">–</span></td>
+							<td class="pricing-2-data mobile-is-hidden"><span class="text-muted">–</span></i></td>
+							<td class="pricing-3-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+						</tr>
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Feature Duis</th>
+							<td class="pricing-1-data"><span class="text-muted">–</span></td>
+							<td class="pricing-2-data mobile-is-hidden"><span class="text-muted">–</span></td>
+							<td class="pricing-3-data mobile-is-hidden"><i class="fas fa-check text-primary"></i></td>
+						</tr>
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Revisions</th>
+							<td class="pricing-1-data"><span class="text-muted">1</span></td>
+							<td class="pricing-2-data mobile-is-hidden"><span class="text-muted">2</span></td>
+							<td class="pricing-3-data mobile-is-hidden">5+</td>
+						</tr>
+						<tr class="pricing-feature-row">
+							<th class="pricing-feature-row-name pricing-0-data" scope="row">Delivery Time</th>
+							<td class="pricing-1-data">7 days</td>
+							<td class="pricing-2-data mobile-is-hidden">14 days</td>
+							<td class="pricing-3-data mobile-is-hidden">2 - 3 month(s)</td>
+						</tr>
+						
+					</tbody>
+					<tfoot>
+						<tr class="pricing-cta-row">
+							<td class="pricing-0-data"></td>
+							<td class="pricing-1-data"><a class="btn btn-primary" href="#">Book Now</a></td>
+							<td class="pricing-2-data mobile-is-hidden"><a class="btn btn-primary" href="#">Book Now</a></td>
+							<td class="pricing-3-data mobile-is-hidden"><a class="btn btn-primary" href="#">Get A Quote</a></td>
+						</tr>
+					</tfoot>
+				</table><!--//pricing-table-->
+				
+			</div><!--//container-->
+		</section><!--//pricing-section-->
+		
+		
 
-                    <div class="media-body">
-                        <h2 class="name font-weight-bold mb-1">Ariel Aguilar</h2>
-                        <div class="tagline mb-3">Senior Software Engineer</div>
-                        <div class="bio mb-4">
-                            Hola, soy Ariel Aguilar me especializo en el desarrollo de software frontend y backend,
-                            creando productos de valor empresarial para tomar desiciones informado y hacer crecer tu
-                            negocio.
-                            <a class="link-on-bg" href="blog-home.html">portfolio</a>.
-                            Donde resivo mis proyectos?
-                            <a class="link-on-bg" href="projects.html">repositorios</a> and <a class="link-on-bg"
-                                href="resume.html"></a>.
-                        </div>
-                        <!--//bio-->
-                        <div class="mb-4">
-                            <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i
-                                    class="fas fa-arrow-alt-circle-right mr-2"></i><span
-                                    class="d-none d-md-inline">Ver</span> Portfolio</a>
-                            <a class="btn btn-secondary mb-3" href="resume.html"><i
-                                    class="fas fa-file-alt mr-2"></i><span
-                                    class="d-none d-md-inline">Ver</span>Repositorios</a>
-                        </div>
-                    </div>
-                    <!--//media-body-->
-                    <!--<img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="https://themes.3rdwavemedia.com/devcard/bs4/2.2/assets/images/profile-lg.jpg" alt="">
-                    -->
-                </div>
-            </div>
-        </section>
-        <!--//about-me-section-->
-    </div>
-    <script src="./bootstrap/js/jquery.min.js"> </script>
-    <script src="./bootstrap/js/popper.min.js"> </script>
+		<footer class="footer text-center py-4">
+			<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+		</footer>
+		
+	</div><!--//main-wrapper-->
+	<script src="./bootstrap/js/jquery.min.js"> </script>
+	<script src="./bootstrap/js/popper.min.js"> </script>
     <script src="./bootstrap/js/bootstrap.min.js"> </script>
     <script src="./bootstrap/js/cookies.js"> </script>
-    <script src="./bootstrap/js/dark-mode.js"> </script>
+	<script src="./bootstrap/js/dark-mode.js"> </script>
+	<script src="./bootstrap/js/pricing.js"></script>
+	
+	<script src="./bootstrap/js/switcher.js"> </script>
 </body>
 
 </html>
