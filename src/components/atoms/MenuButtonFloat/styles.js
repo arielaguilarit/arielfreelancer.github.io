@@ -7,7 +7,7 @@ export const MenuButton = styled.section`
   align-items: center;
   width: 50px;
   height: 50px;
-  background-color: yellow;
+  background-color: green;
   position: fixed;
   right: 10px;
   bottom: 20px;

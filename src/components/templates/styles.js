@@ -22,7 +22,7 @@ export const Container = styled.main`
 
 export const Aside = styled.aside`
   grid-area: aside;
-  background-color: red;
+  background-color: green;
   position: fixed;
   height: 100vh;
   width: 300px;
@@ -51,11 +51,11 @@ export const Main = styled.section`
   }
 
   & > section:nth-child(odd) {
-    background-color: lightblue;
+    background-color: #77de68;
   }
 
   & > section:nth-child(even) {
-    background-color: lightgreen;
+    background-color: #a6ff92;
   }
 `;
 
