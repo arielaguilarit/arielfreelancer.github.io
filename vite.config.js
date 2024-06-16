@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
     plugins: [react(), svgr()],
-    base: "/web.github.iot",
+    base: "/web.github.io/",
     server: {
       port: `${env.PORT ?? "3000"}`,
     },
