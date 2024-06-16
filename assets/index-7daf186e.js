@@ -60,7 +60,7 @@ Error generating stack: `+l.message+`
   }
 `,U2=D.aside`
   grid-area: aside;
-  background-color: red;
+  background-color: green;
   position: fixed;
   height: 100vh;
   width: 300px;
@@ -87,11 +87,11 @@ Error generating stack: `+l.message+`
   }
 
   & > section:nth-child(odd) {
-    background-color: lightblue;
+    background-color: #77de68;
   }
 
   & > section:nth-child(even) {
-    background-color: lightgreen;
+    background-color: #a6ff92;
   }
 `;D.section`
   display: flex;
@@ -117,7 +117,7 @@ Error generating stack: `+l.message+`
   align-items: center;
   width: 50px;
   height: 50px;
-  background-color: yellow;
+  background-color: green;
   position: fixed;
   right: 10px;
   bottom: 20px;
