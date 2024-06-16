@@ -4,7 +4,7 @@
   "description": "web profile in github.io",
   "main": "index.js",
   "repository": "https://github.com/arielaguilarit/web.github.io.git",
-  "homepage": "https://arielaguilarit.github.io/web.github.io/",
+  "homepage": "https://arielaguilarit.github.io/web.github.io",
   "author": "Ariel Aguilar <ariel.aguilarit@gmail.com>",
   "license": "MIT",
   "private": true,
